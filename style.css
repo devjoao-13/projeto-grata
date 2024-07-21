@@ -20,7 +20,6 @@ main {
 html,
 body {
     scroll-snap-type: y mandatory;
-
 }
 
 
@@ -34,9 +33,7 @@ body {
     left: 0;
     z-index: -1;
     object-fit: cover;
-    filter: brightness(25%);
-
-
+    filter: brightness(20%);
 }
 
 .item1,
@@ -48,43 +45,32 @@ body {
     display: flex;
     flex-direction: column;
     scroll-snap-align: start;
-    justify-content: space-around
-
-
-
-
+    justify-content: space-around;
 }
 
 
 .texto1,
 .texto2,
 .texto3 {
-    color: aliceblue;
-
-
+    color: #3453a2;
 }
 
 
 .txt1,
 .txt2,
 .txt3 {
-    color: aliceblue;
+  color:  #8c837d;
 }
 
 
-.p1 {
-    color: aliceblue
-}
+.p1 { color: #3453a2; }
 
 .logo1,
 .logo2,
 .logo3 {
     margin-top: 10px;
     text-align: center;
-   
-
-
-}
+     }
 
 
 .contato1,
@@ -98,8 +84,8 @@ body {
 .acordo2,
 .deixarc, .fehar1, .fechar2, .fechar3{
     font-size: 15px;
-    background-color: rgb(252, 0, 0);
-    color: whitesmoke;
+    background-color: #3453a2;
+    color: black;
     padding: 7px 80px;
     border-radius: 25px;
     opacity: 0.8;
@@ -142,4 +128,21 @@ body {
 @media screen and (max-width: 768px) {.lista{ width: 100%; flex-direction: column;}
     
     
+}
+
+@media screen and (max-width: 1020px){
+
+
+.lista{
+    border: none;
+    margin: none;}
+
+.formulario1{
+    position: relative;
+
+}
+
+}
+.lista{
+    border: none;
 }
